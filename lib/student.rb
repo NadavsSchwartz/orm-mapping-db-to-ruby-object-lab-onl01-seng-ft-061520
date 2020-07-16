@@ -98,7 +98,6 @@ class Student
         SELECT *
         FROM students
         WHERE grade = 10
-        ORDER BY students.id
 
       SQL
       DB[:conn].execute(sql).map do |student|
